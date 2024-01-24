@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #EDEDED;
+}
+
+.header-content{
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    gap: 600px;
+}
+
+.header-content h1{
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.main {
+    max-width: 1100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 140px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.page-title{
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 18px;
+  font-family: 'Heebo', sans-serif;
+}
+
+.checkout-grid{
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    column-gap: 12px;
+    align-items: start;
+}
+
+.payment-summary {
+  border: 1px solid rgb(222, 222, 222);
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.payment-summary-title{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.payment-summary-row{
+    display: grid;
+    margin-bottom: 12px;
+    font-family: 'Heebo', sans-serif; 
+}
+
+.payment-summary-money{
+    text-align: right;
+}
+
+.place-order-button {
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 20px;
+    border: none;
+    background-color: #1E1B93;
+    color: #fff;
+    margin-top: 11px;
+    margin-bottom: 15px;
+  }
+
+  .checkout-grid{
+  display: grid;
+  /* Here, 1fr means the first column will take
+     up the remaining space in the grid. */
+  grid-template-columns: 1fr 350px;
+  column-gap: 12px;
+
+  /* Use align-items: start; to prevent the elements
+     in the grid from stretching vertically. */
+  align-items: start;
+  }
+
+  .product-name {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 8px;
+    font-family: 'Heebo', sans-serif;
+    color: #1E1B93;
+  }
+
+  .product-price{
+    font-family: 'Heebo', sans-serif;
+    margin-bottom: 6px;
+  }
+
+  .product-quantity{
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+  }
+  
+.product-quantity .link-primary {
+    margin-left: 5px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+  }
+  
+
+  .delivery-options {
+    font-family: 'Heebo', sans-serif;
+    margin-bottom: 4px;
+    font-size: 12px;
+  }
+
+  .delivery-date{
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+  }
+
+  .product-image{
+    max-width: 100%;
+    max-height: 290px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media screen and (max-width: 768px) {
+    header{
+        width: 100%;
+    }
+
+    
+    .header-content{
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    gap: 240px;
+    }
+
+    .header-content h1{
+        padding-top: 10px;
+    }
+
+  }
